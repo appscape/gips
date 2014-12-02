@@ -1,5 +1,7 @@
 # Gips
 
+<img src="https://raw.github.com/appscape/gips/master/docs/action.gif" alt="Gips in action">
+
 Gips is a simple tool to generate GPX routes that mimic realistic user movement in the iOS simulator.
 
 It is a known limitation that Simulator moves between waypoints at constant speed, ignoring timestamps defined in the GPX files.
