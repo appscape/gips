@@ -41,7 +41,7 @@ Clamp do
     previous = nil
     output = []
 
-    points = doc.css('rtept,trkpt').map {|p| [p['lat'].to_f, p['lon'].to_f]}.uniq
+    points = doc.css('rtept,trkpt,wpt').map {|p| [p['lat'].to_f, p['lon'].to_f]}.uniq
 
     puts "Found #{points.count} route points in #{infile}."
 
